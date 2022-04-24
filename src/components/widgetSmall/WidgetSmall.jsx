@@ -18,7 +18,7 @@ const WidgetSmall = () => {
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallBtn">
-            <VisibilityOutlinedIcon />
+            <VisibilityOutlinedIcon className="widgetSmallIcon" />
             Display
           </button>
         </li>
@@ -33,7 +33,7 @@ const WidgetSmall = () => {
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallBtn">
-            <VisibilityOutlinedIcon />
+            <VisibilityOutlinedIcon className="widgetSmallIcon" />
             Display
           </button>
         </li>
@@ -48,7 +48,7 @@ const WidgetSmall = () => {
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallBtn">
-            <VisibilityOutlinedIcon />
+            <VisibilityOutlinedIcon className="widgetSmallIcon" />
             Display
           </button>
         </li>
@@ -63,7 +63,7 @@ const WidgetSmall = () => {
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallBtn">
-            <VisibilityOutlinedIcon />
+            <VisibilityOutlinedIcon className="widgetSmallIcon" />
             Display
           </button>
         </li>
@@ -78,7 +78,7 @@ const WidgetSmall = () => {
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallBtn">
-            <VisibilityOutlinedIcon />
+            <VisibilityOutlinedIcon className="widgetSmallIcon" />
             Display
           </button>
         </li>
