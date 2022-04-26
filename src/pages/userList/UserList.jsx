@@ -5,7 +5,19 @@ import "./userList.css";
 const columns = [
   { field: "id", headerName: "ID", width: 90 },
   { field: "username", headerName: "User", width: 200 },
-  { field: "email", headerName: "Email", width: 200 },
+  {
+    field: "email",
+    headerName: "Email",
+    width: 200,
+    renderCell: (params) => {
+      return (
+        <div>
+          <img src={params.row.avatar} alt="" />
+          {params.row.username}
+        </div>
+      );
+    },
+  },
   {
     field: "status",
     headerName: "Status",
