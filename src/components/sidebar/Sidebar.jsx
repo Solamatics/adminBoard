@@ -24,6 +24,7 @@ const Sidebar = () => {
               <LineStyleIcon className="sidebarIcon" />
               Home
             </li>
+
             <li className="sidebarListItem">
               <TimelineIcon className="sidebarIcon" />
               Analytics
@@ -42,6 +43,7 @@ const Sidebar = () => {
               <PersonOutlineRoundedIcon className="sidebarIcon" />
               Users
             </li>
+
             <li className="sidebarListItem">
               <Inventory2OutlinedIcon className="sidebarIcon" />
               Products
