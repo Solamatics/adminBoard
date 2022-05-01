@@ -5,6 +5,7 @@ import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LocationSearchingIcon from "@mui/icons-material/LocationSearching";
+import PublishIcon from "@mui/icons-material/Publish";
 
 const User = () => {
   return (
@@ -51,7 +52,68 @@ const User = () => {
             </div>
           </div>
         </div>
-        <div className="userUpdate"></div>
+        <div className="userUpdate">
+          <span className="userUpdateTitle">Edit</span>
+          <form className="userUpdateForm">
+            <div className="userUpdateLeft">
+              <div className="userUpdateItem">
+                <label htmlFor="username">Username</label>
+                <input
+                  type="text"
+                  placeholder="annabeck99"
+                  className="userUpdateInput"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="username">Full Name</label>
+                <input
+                  type="text"
+                  placeholder="Anna Becker"
+                  className="userUpdateInput"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="username">Email</label>
+                <input
+                  type="email"
+                  placeholder="annabeck99@gmail.com"
+                  className="userUpdateInput"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="username">Phone</label>
+                <input
+                  type="text"
+                  placeholder="+1 123 456 67"
+                  className="userUpdateInput"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label htmlFor="username">Address</label>
+                <input
+                  type="email"
+                  placeholder="New York | USA"
+                  className="userUpdateInput"
+                />
+              </div>
+            </div>
+            <div className="userUpdateRight">
+              <div className="userUpdateUpload">
+                <img
+                  src="https://images.unsplash.com/photo-1583760919595-270997d7726a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1665&q=80"
+                  alt=""
+                  className="userUpdateImage"
+                />
+                <label htmlFor="file">
+                  {" "}
+                  <PublishIcon />
+                </label>
+                <input type="file" id="file" style={{ display: "none" }} />
+              </div>
+              <button className="userUpdateButton">Update</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
