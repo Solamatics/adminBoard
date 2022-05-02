@@ -54,7 +54,6 @@ export const userRows = [
   {
     id: 1,
     username: "Jon Snow",
-    lastName: "Snow",
     avatar:
       "https://media.istockphoto.com/photos/pleasant-young-indian-woman-freelancer-consult-client-via-video-call-picture-id1300972573?b=1&k=20&m=1300972573&s=170667a&w=0&h=xuAsEkMkoBbc5Nh-nButyq3DU297V_tnak-60VarrR0=",
     email: "jon@gmail.com",
@@ -150,5 +149,89 @@ export const userRows = [
     email: "hon@gmail.com",
     status: "active",
     transaction: "$120.00",
+  },
+];
+
+//product data
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 2,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 3,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 4,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 5,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 6,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 7,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 8,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 9,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 10,
+    name: "Apple Airpods",
+    img: "https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
   },
 ];

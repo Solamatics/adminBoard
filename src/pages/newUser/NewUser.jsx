@@ -32,7 +32,7 @@ const NewUser = () => {
         </div>
         <div className="newUserItem">
           <label>Gender</label>
-          <div className="newUserGend">
+          <div className="newUserGender">
             <input type="radio" name="gender" id="male" value="male" />
             <label htmlFor="Male">Male</label>
             <input type="radio" name="gender" id="female" value="female" />
@@ -49,6 +49,7 @@ const NewUser = () => {
           </select>
         </div>
       </form>
+      <button className="newUserButton">Create</button>
     </div>
   );
 };

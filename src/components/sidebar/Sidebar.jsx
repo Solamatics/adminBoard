@@ -12,6 +12,7 @@ import DynamicFeedOutlinedIcon from "@mui/icons-material/DynamicFeedOutlined";
 import ForumOutlinedIcon from "@mui/icons-material/ForumOutlined";
 import MarkunreadMailboxOutlinedIcon from "@mui/icons-material/MarkunreadMailboxOutlined";
 import ReportTwoToneIcon from "@mui/icons-material/ReportTwoTone";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -20,10 +21,12 @@ const Sidebar = () => {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem active">
-              <LineStyleIcon className="sidebarIcon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sidebarListItem active">
+                <LineStyleIcon className="sidebarIcon" />
+                Home
+              </li>
+            </Link>
 
             <li className="sidebarListItem">
               <TimelineIcon className="sidebarIcon" />
@@ -39,15 +42,20 @@ const Sidebar = () => {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <PersonOutlineRoundedIcon className="sidebarIcon" />
-              Users
-            </li>
+            <Link to="/users" className="link">
+              <li className="sidebarListItem">
+                <PersonOutlineRoundedIcon className="sidebarIcon" />
+                Users
+              </li>
+            </Link>
 
-            <li className="sidebarListItem">
-              <Inventory2OutlinedIcon className="sidebarIcon" />
-              Products
-            </li>
+            <Link to="/products" className="link">
+              <li className="sidebarListItem">
+                <Inventory2OutlinedIcon className="sidebarIcon" />
+                Products
+              </li>
+            </Link>
+
             <li className="sidebarListItem">
               <AttachMoneyOutlinedIcon className="sidebarIcon" />
               Transactions
