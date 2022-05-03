@@ -20,7 +20,7 @@ const ProductList = () => {
       width: 200,
       renderCell: (params) => {
         return (
-          <div className="productListUser">
+          <div className="productListItem">
             <img className="productListImg" src={params.row.img} alt="" />
             {params.row.name}
           </div>
@@ -38,8 +38,8 @@ const ProductList = () => {
       width: 120,
     },
     {
-      field: "name",
-      headerName: "Name",
+      field: "price",
+      headerName: "Price",
       width: 200,
     },
     {
@@ -49,12 +49,12 @@ const ProductList = () => {
       renderCell: (params) => {
         return (
           <>
-            <Link to={"/user/" + params.row.id}>
-              <button className="userListEdit">Edit</button>
+            <Link to={"/product/" + params.row.id}>
+              <button className="productListEdit">Edit</button>
             </Link>
 
             <DeleteOutlineIcon
-              className="userListDelete"
+              className="productListDelete"
               onClick={() => handleDelete(params.row.id)}
             />
           </>
