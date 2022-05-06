@@ -2,6 +2,7 @@ import React from "react";
 import "./product.css";
 import { Link } from "react-router-dom";
 import Chart from "../../components/chart/Chart";
+import { productData } from "../../data";
 
 const Product = () => {
   return (
@@ -14,9 +15,39 @@ const Product = () => {
       </div>
       <div className="productTop">
         <div className="productTopLeft">
-          <Chart />
+          <Chart data={productData} dataKey="Sales" title="Sales Performance" />
         </div>
-        <div className="productTopRight"></div>
+        <div className="productTopRight">
+          <div className="productInfoTop">
+            <img
+              src="https://images.pexels.com/photos/5099868/pexels-photo-5099868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+              className="productInfoImg"
+            />
+            <span className="productName">Apple Airpods</span>
+          </div>
+          <div className="productInfoBottom">
+            <div className="productInfoItem">
+              <span className="productInfoKey">id:</span>
+              <span className="productInfoValue">123</span>
+            </div>
+
+            <div className="productInfoItem">
+              <span className="productInfoKey">id:</span>
+              <span className="productInfoValue">123</span>
+            </div>
+
+            <div className="productInfoItem">
+              <span className="productInfoKey">id:</span>
+              <span className="productInfoValue">123</span>
+            </div>
+
+            <div className="productInfoItem">
+              <span className="productInfoKey">id:</span>
+              <span className="productInfoValue">123</span>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="productBottom"></div>
     </div>
